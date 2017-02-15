@@ -1,0 +1,25 @@
+
+ 
+ $old-ie: false !default;
+
+@import "config/variables";
+@import "config/mixins";
+
+//Base styles
+@media screen, projection, print {
+  // Compile all the css into one file
+@import "config/grid";
+@import "reset";
+@import "base";
+@import "config/components";
+
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+//Print
+@media print {
+	@import "print";
+}

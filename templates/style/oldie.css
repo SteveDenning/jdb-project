@@ -1,0 +1,296 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000315}}
+.col {
+  box-sizing: border-box;
+  display: block;
+  padding: 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000320}}
+.col:first-child {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000326}}
+.col {
+  float: left;
+  margin: 0 0 0 1%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+.col1 {
+  width: 7.33333%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+.col1:first-child {
+  width: 8.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+.col2 {
+  width: 15.66667%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+.col2:first-child {
+  width: 16.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+.col3 {
+  width: 24%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+.col3:first-child {
+  width: 25%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+.col4 {
+  width: 32.33333%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+.col4:first-child {
+  width: 33.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+.col5 {
+  width: 40.66667%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+.col5:first-child {
+  width: 41.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+.col6 {
+  width: 49%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+.col6:first-child {
+  width: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+.col7 {
+  width: 57.33333%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+.col7:first-child {
+  width: 58.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+.col8 {
+  width: 65.66667%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+.col8:first-child {
+  width: 66.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+.col9 {
+  width: 74%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+.col9:first-child {
+  width: 75%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+.col10 {
+  width: 82.33333%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+.col10:first-child {
+  width: 83.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+.col11 {
+  width: 90.66667%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+.col11:first-child {
+  width: 91.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+.col12 {
+  width: 99%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+.col12:first-child {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\000034}}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\0000314}}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\0000316}}
+blockquote, q {
+  quotes: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\0000317}}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\0000319}}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\0000320}}
+a img {
+  border: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\0000322}}
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\0000325}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\0000327}}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\0000329}}
+input, select {
+  vertical-align: middle;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\0000332}}
+input {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_base\.scss}line{font-family:\000033}}
+.row:after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_base\.scss}line{font-family:\0000310}}
+.ie6 .row, .ie7 .row {
+  zoom: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_base\.scss}line{font-family:\0000316}}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 62.5%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_base\.scss}line{font-family:\0000324}}
+.skipLink {
+  background: #222;
+  color: #fff;
+  display: block;
+  left: -9999px;
+  padding: 4px;
+  position: absolute;
+  z-index: 1000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_base\.scss}line{font-family:\0000332}}
+.skipLink:focus {
+  left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_base\.scss}line{font-family:\0000337}}
+.hidden {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_base\.scss}line{font-family:\0000341}}
+.accessible {
+  position: absolute;
+  left: -9999px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_base\.scss}line{font-family:\0000345}}
+h2 {
+  font-size: 2em;
+  border-bottom: 1px solid #666;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_base\.scss}line{font-family:\0000349}}
+h3 {
+  font-size: 1.7em;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_base\.scss}line{font-family:\0000354}}
+p {
+  font-size: 1.3em;
+}
+
+@media print {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_print\.scss}line{font-family:\000034}}
+  body {
+    background: White;
+    color: Black;
+    font: 12pt "New Century Schoolbook", "Times New Roman", TimesNR, Times, serif;
+    text-align: left;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_print\.scss}line{font-family:\0000311}}
+  a {
+    color: Blue;
+    text-decoration: underline;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_print\.scss}line{font-family:\0000315}}
+  a img {
+    border: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_print\.scss}line{font-family:\0000318}}
+  img {
+    display: block;
+    margin: 12pt 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_print\.scss}line{font-family:\0000324}}
+  .pageHeaderWrapper {
+    display: none;
+    visibility: hidden;
+  }
+}

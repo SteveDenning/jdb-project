@@ -1,0 +1,56 @@
+
+.row {
+	&:after {
+    clear:both;
+    content:"";
+		display:block;
+    height:0;
+    visibility:hidden;
+	}
+	.ie6 &, .ie7 & {
+		zoom:1;
+	}
+}
+
+// Base Styles
+body {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+// accessibility helpers
+
+// hidden skiplink that only reveals itself when it is being focused on
+.skipLink {
+    background: #222;
+    color: #fff;
+    display: block;
+    left: -9999px;
+    padding: 4px;
+    position: absolute;
+    z-index: 1000;
+    &:focus {
+        left: 0;
+    }
+}
+// hiding from screen and the screen reader
+.hidden {
+    display: none;
+}
+// hiding from screen, but not to the screen reader
+.accessible {
+    position: absolute;
+    left: -9999px;
+}
+h2 {
+    font-size: 2em;
+    border-bottom: 1px solid #666;
+}
+h3 {
+    font-size: 1.7em;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 1.3em;
+}

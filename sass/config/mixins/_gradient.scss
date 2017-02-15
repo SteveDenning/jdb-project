@@ -1,0 +1,23 @@
+// Name: gradient
+// Purpose: To apply a vertical gradient to an element.
+// How to call: 
+//		include gradient([Top Colour],[Bottom Colour], [Background Colour], [IE filters (on/off)]);
+
+@mixin gradient($from, $to, $bgcolor: mix($from, $to), $useIe: $useIeFilters) {
+  background-color: $bgcolor;
+  background-image: -webkit-gradient(linear, left top, left bottom, from($from), to($to)); // Saf4+, Chrome
+  background-image: -webkit-linear-gradient(top, $from, $to); // Chrome 10+, Saf5.1+, iOS 5+
+  background-image:    -moz-linear-gradient(top, $from, $to); // FF3.6+
+  background-image:      -o-linear-gradient(top, $from, $to); // Opera 11.10+
+  background-image:         linear-gradient(to bottom, $from, $to);
+	  @if $useIe == true {
+		  .ie9 &,
+		  .ie8 &,
+		  .ie7 &,
+		  .ie6 &{
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#{ie-hex-str($from)}', endColorstr='#{ie-hex-str($to)}');";
+			filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#{ie-hex-str($from)}', endColorstr='#{ie-hex-str($to)}');;
+			zoom: 1;
+	  }
+  }
+}

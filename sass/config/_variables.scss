@@ -1,0 +1,22 @@
+// Media query widths
+// Upddate the widths within the variables below to match the breakpoint of your project
+// These are using a mobile first approach
+
+$xSmall: "min-width: 20em"; // 320px
+$small: "min-width: 30em"; // 480px
+$tablet: "min-width: 40em"; // 640px
+$large: "min-width: 48.063em"; // 769px
+$desktop: "min-width: 64em"; // 1024px
+$Ldesktop: "min-width: 90em"; // 1440px
+
+
+// colors
+$textColor01: #fff;
+$textColor02: #555;
+$borderColor: #aaa;
+$black: #000;
+$white: #fff;
+$brandBlue: #3D56A6;
+$brandLightBlue: #6478B8;
+$textBlue: #2EA3F2;
+$lightGrey: #eee;

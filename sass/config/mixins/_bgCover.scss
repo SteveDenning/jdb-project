@@ -1,0 +1,23 @@
+// Name: bgCover
+// Purpose: Apply a radial border to an element
+// How to call: 
+//		@include bg-cover([Fallback colour], [Image URL without extension], [File extension]);
+// Note: If your image is called "/images/test.jpg" ipad will look for "/images/test_ipad.jpg" and iPhone/android will look for "/images/test_iphone.jpg".
+
+@mixin bg-cover ($colour, $url, $ext) {
+	background:$colour url($url + "." + $ext) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;	
+	.ipad &	{
+		background:$colour url($url + "_ipad." + $ext) no-repeat center top;
+		background-size:1024px 768px;
+	}
+	.iphone &,
+	.android & {
+		background:$colour url($url + "_iphone." + $ext) no-repeat center top;
+		background-size:480px 360px;
+	}
+}

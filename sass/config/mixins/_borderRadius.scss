@@ -1,0 +1,16 @@
+// Name: borderRadius
+// Purpose: Apply a radial border to an element
+// How to call: 
+//		@include borderRadius([Top Left - Top Right - Bottom right - Bottom Left (px)] [useIe: true/false (default false)]);
+// Note: Use of IE filter is to be used as a last resort, do not impliment this on every build as it is a fix just as much as it is a bug.
+
+@mixin border-radius($radius, $useIe: $css3Pie) {
+	border-radius: $radius;
+	
+	@if $useIe == true {
+		.ie8 &,
+		.ie7 & {
+			@extend %css3Pie;
+		}
+	}
+}

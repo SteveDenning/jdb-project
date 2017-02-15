@@ -1,0 +1,19 @@
+// Name: boxShadow
+// Purpose: Apply a shadow to an element
+// How to call: 
+//		@include boxShadow([Left Position (px)],[Top Position (px)], [Blur Amount (px)], [Spread Amount (px)], [Colour], [Inset], [Fallback border]);
+
+@mixin boxShadow ($left, $top, $blur, $spread, $color, $inset: "", $fallbackborder: opacify(lighten($color, 100*alpha($color)),1), $useIe: $css3Pie) {
+	box-shadow: $left $top $blur $spread $color #{$inset};
+
+    @if $useIe == true {
+		.ie8 &,
+		.ie7 & {
+			@extend %css3Pie;
+		}
+	} @else {
+		.ie7 &, .ie8 & {
+		    border:1px solid $fallbackborder;
+		}
+	}
+}

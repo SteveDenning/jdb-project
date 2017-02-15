@@ -1,0 +1,50 @@
+
+.mainContent {
+	padding: 10px 0 0 0;
+	border-top: 100px solid transparent;
+	h2 {
+		color: $textColor02;
+		font-size: 3em;
+	}
+	.gallery {
+		li {
+			img {
+				width: 100%;
+				margin-left: 0;
+			}
+			.contentInner {
+				@include borderBox;
+				padding: 10px;
+				h2 {
+					margin-bottom: 15px;
+					color: #666;
+				}
+				h3 {
+					margin-bottom: 15px;
+				}
+				.col4 {
+					padding: 10px;
+				}
+				.bottomRight {
+					position: absolute;
+					bottom: 10px;
+					right: 7px;
+				}
+				h4 {
+					font-size: 2em;
+					font-weight: normal;
+					border-bottom: 1px solid $brandBlue;
+					margin: 10px 0;
+					color: $textColor02;
+				}
+				.description {
+					@include borderBox;
+					margin-bottom: 45px;
+				}
+				a {
+					font-size: 1.3em;
+				}
+			}
+		}
+	}
+}

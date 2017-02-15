@@ -1,0 +1,115 @@
+.pageHeaderWrapper {
+	background: $brandBlue;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	.pageHeader {
+		position: relative;
+		.primaryLogo {
+			margin: 0 auto;
+			width: 320px;
+			img {
+				min-width: 100%;
+				padding: 5px 0;
+				width: 10%;
+			}
+			@include mQuery($tablet) {
+				width: 100%;
+				img {
+					padding: 10px 0;
+					width: 330px;
+				}
+			}
+			@include mQuery($Ldesktop) {
+				img {
+					width: 400px;
+				}
+			}
+		}
+		.socialIcons {
+			color: $textColor01;
+			font-size: 1.4em;
+			text-align: center;
+			@include mQuery($tablet) {
+				font-size: 2em;
+				text-align: right;
+			}
+			.fb-like {
+				display: block;
+				margin-right: 10px!important;
+				@include mQuery($Ldesktop) {
+					margin-top: 10px;
+				}
+			}
+			.facebookIcon {
+				.overLay {
+					background: #fff;
+				}
+				&:hover {
+					a {
+						color: #44619D;
+					}
+				}
+			}
+			.twitterIcon {
+				.overLay {
+					background: #4FC6F8;
+				}
+			}
+			.linkedInIcon {
+				.overLay {
+					background: #007BB6;
+				}
+			}
+			.facebookIcon,
+			.twitterIcon,
+			.linkedInIcon {
+				top: 5px;
+				display: inline-block;
+				height: 35px;
+				.overLay {
+					@include transition(height .2s ease-in-out);
+					content: " ";
+					display: block;
+					height: 0;
+					left: 2px;
+					position: relative;
+					top: -33px;
+					width: 39px;
+					z-index: 1;
+					&.is-active {
+						height: 34px;
+					}
+				}
+				@include mQuery($tablet) {
+					top: 5px;
+					height: 43px;
+					.overLay {
+						height: 0;
+						left: 3px;
+						top: -40px;
+						width: 50px;
+						z-index: 1;
+						&.is-active {
+							height: 42px;
+						}
+					}
+				}	
+			}
+			.fb-like {
+				margin-left: 2%;
+			}
+			a {
+				@include transition(color .2s ease);
+				background: transparent;
+				color: $textColor01;
+				display: inline-block;
+				padding: 10px 17px;
+				position: relative;
+				text-decoration: none;
+				top: 0;
+				z-index: 2;
+			}
+		}
+	}
+}

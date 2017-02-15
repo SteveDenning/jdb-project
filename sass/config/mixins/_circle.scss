@@ -1,0 +1,11 @@
+// Name: circle
+// Purpose: Creates a CSS circle. Browsers that don't support border-radius will fall back to a square
+// How to call: 
+//		@include circle([radius], [colour]);
+
+@mixin circle($radius, $color) {
+   width: $radius*2;
+   height: $radius*2;
+   background: $color; 
+   @include border-radius($radius);
+}

@@ -1,0 +1,39 @@
+// Compass mixin inclusion for background image folder location updates
+@import "compass/css3/images";
+
+// Compass mixin inclusion for Sprites + calling all PNG files within icons folder to be made into sprite
+// To include use @include icons-sprite(heroTabSelected); (The image name before placed within the sprite is what appears in the brakcets).
+// Uncomment following lines if you want to sprite.
+
+// @import "compass/utilities/sprites";
+// @import "icons/*.png";
+
+//Configuration options for SASS.
+$useModernizr: true; //Whether or not to use Modernizr progressive enhancement in the mixins. Set to false to turn off
+$useIeFilters: true; //Whether or not to use IE filters as a fallback for linear gradients and rgba colours. Set to false to turn off
+$css3Pie: false; //Whether or not to use CSSPie to include IE styling
+
+//shortcut to include hover, active and focus states, to call this use #{$altStates} { CSS HERE }
+// This saves declaring focus, hover and active repeatedly.
+$altStates : "&:focus, &:hover, &:active";
+
+// Import mixins
+
+@import "mixins/font";
+@import "mixins/mQuery";
+@import "mixins/clearFix";
+@import "mixins/gradient";
+@import "mixins/imgGradient";
+@import "mixins/rgba";
+@import "mixins/boxShadow";
+@import "mixins/borderRadius";
+@import "mixins/bgCover";
+@import "mixins/fluidVideo";
+@import "mixins/transition";
+@import "mixins/retina";
+@import "mixins/borderBox";
+
+// CSS Shapes
+@import "mixins/triangle";
+@import "mixins/circle";
+@import "mixins/oval";

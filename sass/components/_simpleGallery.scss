@@ -1,0 +1,39 @@
+
+.simplegallery {
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	.content {
+		background: #fff;
+		// position: relative;
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		img {
+			margin: 0;
+			width: 100%;
+			
+		}
+	.thumbnail { 
+		margin-top: 5px;
+		}
+	}
+}
+.simplegallery .thumbnail .thumb {
+	@include borderBox;
+	float: left;
+	width: 24%;
+	height: auto;
+	margin: 0 1% 0 0;
+	cursor: pointer;
+	// &:first-child {
+	// 	margin-left: 0;
+	// }
+	img {
+	  border: 1px solid #9c9c9c;
+	  width: 100%;
+	}
+}
+
+

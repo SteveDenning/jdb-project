@@ -1,0 +1,16 @@
+// Name: font
+// Purpose: To include fonts that work x-browser
+// How to call: @include font([Font Name],[Font file name without extension], [svgname] (optional), [font weight] (optional), [font style], (optional));
+
+@mixin font($name,$filename,$svgname: $name,$weight: 400,$style:normal) {
+	@font-face {
+		font-family: $name;
+		src: url('/fonts/' + $filename + '.eot');
+		src: url('/fonts/' + $filename + '.eot?') format('embedded-opentype'),
+			 url('/fonts/' + $filename + '.woff') format('woff'),
+			 url('/fonts/' + $filename + '.ttf') format('truetype'),
+			 url('/fonts/' + $filename + '.svg#' + $svgname) format('svg');
+		font-weight:$weight;
+		font-style:$style;
+	}
+}

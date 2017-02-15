@@ -1,0 +1,13 @@
+// Name: clearFix
+// Purpose: To apply clearing to following elements
+// How to call: @include clearFix;
+
+@mixin clearFix {
+	&:after {
+	    visibility:hidden;
+		clear:both;
+		content:".";
+		height:0;
+		display:block;
+	}
+}

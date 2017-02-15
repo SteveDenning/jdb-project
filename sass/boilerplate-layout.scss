@@ -1,0 +1,121 @@
+ $old-ie: false !default;
+
+@import "config/variables";
+@import "config/mixins";
+@import "config/grid";
+// @import "config/font-icons";
+
+// Base styles
+@media screen, projection {
+  // Compile all the css into one file
+  @import "reset";
+  @import "base";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  color: #434a51;
+  font: 62.5% Arial, Helvetica, san-serif;
+}
+header {
+  background: #FFF;
+  border-bottom: 2px solid #cc092f;
+  padding: 1em 2em;
+  &:after {
+    clear: both;
+    content: "";
+    display: block;
+    visibility: hidden;
+    zoom: 1;
+  }
+  img {
+    float: right;
+  }
+  h1 {
+    float: left;
+  }
+}
+h1 {
+  font-size: 2em;
+  line-height: 1.8em;
+  padding-top: 1.8em;
+}
+h2 {
+  font-size: 2em;
+  line-height: 1.8em;
+  padding-bottom: 1em;
+}
+.content {
+  padding: 1em;
+}
+a {
+  color: #CC092f;
+  font-weight: bold;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: #000;
+  }
+}
+ul, ol {
+  padding: 1em 2em;
+}
+li {
+  font-size: 1.4em;
+}
+table {
+  width: 100%;
+
+  th {
+    background: #CC092F;
+    color: #FFF;
+  }
+  td li {
+    font-size: 1em;
+  }
+  th, td {
+    border: 1px solid #CCCCCC;
+    font-size: 1.4em;
+    padding: 10px;
+    text-align: left;
+  }
+  td ul, td ol {
+    padding: 0 0 0 1em;
+  }
+  tr {
+    &:nth-child(odd) {
+      td { background: #EEEEEE; }
+    }
+    &:hover {
+      td { background: #cacec3; }
+    }
+    td.notStarted { background: #FF4F6A; }
+    td.inProgress { background: #FFA511; }
+    td.complete { background: #BADA55; }
+  }
+  .component {
+    th {
+      background: purple;
+    }
+  }
+}
+.exampleGrid {
+  .col { background: #CCC; display: block; margin-bottom: 5px;
+    .col { background: #F0F; margin-bottom: 0; }
+    span { display: block; padding: 10px; }
+  }
+}
+.font-icon-examples {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  -o-column-count: 4;
+  column-count: 4;
+
+  li {
+    display: block;
+    padding-bottom: 5px;
+  }
+}

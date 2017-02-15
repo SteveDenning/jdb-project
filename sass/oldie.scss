@@ -1,0 +1,17 @@
+//Specific IE styles related to responsive layout.
+//Recommended to set a static width on the page container. This width should be above the level of the highest media query imported above.
+// For example:	#pageWrapper { width:1024px;}
+
+$old-ie: true; 
+
+@import "config/variables";
+@import "config/mixins";
+@import "config/grid";
+@import "reset";
+@import "base";
+
+
+//Print
+@media print {
+	@import "print";
+} 

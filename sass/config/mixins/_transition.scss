@@ -1,0 +1,13 @@
+// Name: transition
+// Purpose: Creates a transition/animation for the element. 
+// How to call: 
+//		@include transition([property], [duration], [easing], [delay]);
+
+
+@mixin transition($values) {
+   -moz-transition: $values;
+   -webkit-transition: $values;
+   -o-transition: $values;
+   -ms-transition: $values;
+   transition: $values;
+}

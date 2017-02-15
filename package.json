@@ -1,0 +1,70 @@
+{
+	"name": "HW-Template",
+
+	"version": "0.1.0",
+	
+	"private": true,
+
+	"devDependencies": {
+		"grunt": "0.4.x",
+		"grunt-contrib-compass": "1.0.x",
+		"grunt-contrib-jshint": "0.10.x",
+		"grunt-htmlhint": "0.4.x",
+		"grunt-contrib-clean": "0.6.x",
+		"grunt-contrib-copy": "0.5.x",
+		"grunt-mocha-require-phantom": "0.3.x",
+		"uglify-js": "2.4.x"
+	},
+
+	"templates": {
+
+		"webroot": "templates",
+
+		"css": {
+			"source": "sass",
+			"path": "style"
+		},
+
+		"html": {
+			"path": "pages"
+		},
+
+		"img": {
+			"path": "images",
+			"httpPath": "/images"
+		},
+
+		"fonts": {
+			"path": "fonts",
+			"httpPath": "/fonts"
+		},
+
+		"js": {
+			"path": "script",
+			"out": "default"
+		}
+	},
+
+	"webApp": {
+
+		"webroot": "app",
+
+		"css": {
+			"path": ""
+		},
+
+		"js": {
+			"path" : ""
+		},
+
+		"img": {
+			"path" : "",
+			"httpPath" : ""
+		},
+
+		"fonts": {
+			"path" : "",
+			"httpPath" : ""
+		}
+	}
+}

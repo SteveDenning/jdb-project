@@ -1,0 +1,13 @@
+// Name: imgGradient
+// Purpose: To apply a vertical gradient to an image.
+// How to call: 
+//		@include imageGradient([img url only], [left top no-repeat], [Top Colour],[Bottom Colour], [Background Colour], [IE filters (on/off)]);
+
+@mixin imgGradient($img, $imgSettings, $from, $to, $bgcolor: mix($from, $to)) {
+  background:  url($img) $imgSettings $bgcolor;
+  background-image: url($img), -webkit-gradient(linear, left top, left bottom, from($from), to($to)); // Saf4+, Chrome
+  background-image: url($img), -webkit-linear-gradient(top, $from, $to); // Chrome 10+, Saf5.1+, iOS 5+
+  background-image: url($img), -moz-linear-gradient(top, $from, $to); // FF3.6+
+  background-image: url($img), -o-linear-gradient(top, $from, $to); // Opera 11.10+
+  background-image: url($img), linear-gradient(to bottom, $from, $to);
+}

@@ -1,0 +1,16 @@
+.btn {
+	display: inline-block;
+	float: right;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+.blueBtn {
+	background:  $brandBlue;
+	border: 1px solid $brandBlue;
+	color: $white;
+	@include transition(background .2s ease);
+	&:hover {
+		background: $white;
+		color: $brandBlue,
+	}
+}

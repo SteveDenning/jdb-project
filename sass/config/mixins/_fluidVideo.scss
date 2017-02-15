@@ -1,0 +1,21 @@
+// Name: fluidVideo
+// Purpose: Convert fixed width and height video dimensions into percentages
+// How to call: 
+//		@include fluidVideo([video width], [video height]);
+
+// Note: There is currently a bug with Firefox 13 and window resize with responsive videos - https://bugzilla.mozilla.org/show_bug.cgi?id=765788
+
+@mixin fluidVideo($video-width:16, $video-height:9) {
+	position: relative;
+	padding-bottom: percentage($video-height/$video-width); // Defaults to 16:9
+	height: 0;
+	& object,
+	& embed,
+	& iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}

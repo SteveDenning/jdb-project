@@ -1,0 +1,14 @@
+// Name: oval
+// Purpose: Creates a CSS owal. Browsers that don't support border-radius will fall back to a square
+// How to call: 
+//		@include oval([colour], [height], [width]);
+
+@mixin oval($color, $height, $width) {
+   width: $width; 
+   height: $height; 
+   background: $color; 
+   $temp: $width/4;
+   -moz-border-radius: #{$height} / #{$width/4};
+   -webkit-border-radius: #{$height} / #{$width/4};
+   border-radius: #{$height} / #{$width/4};
+}

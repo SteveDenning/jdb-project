@@ -1,0 +1,56 @@
+.product {
+	.productContainer {
+		margin-bottom: 50px;
+	}
+	.contentStyle01 {
+		    border-top: 100px solid transparent;
+		.description {
+			@include borderBox;
+			padding: 5px;
+			.tickList {
+				font-size: 1.3em;
+				list-style: none;
+				li {
+					background: url(../images/background/tick.png)  no-repeat;
+					background-size: 15px;
+					padding: 5px 0;
+					padding-left: 20px;
+					@include mQuery($tablet) {
+						background-size: 25px;
+						padding-left: 30px;
+						font-size: 1.8em;
+					}
+				}
+			}
+		} 
+		h2 {
+			font-size: 2.4em;
+			margin-bottom: 30px; 
+			color: #666;
+		}
+		h3 {
+			font-size: 2em;
+			color: #333;
+			margin-bottom: 10px;
+			margin-top: 20px;
+			@include mQuery($tablet) {
+				margin-top: 0;
+			}
+		}
+		p {
+			color: #333;
+			margin-bottom: 10px;
+		}
+		@include mQuery($tablet) {
+			h2 {
+				font-size: 3em;
+			}
+			h3 {
+				font-size: 2.4em;
+			}
+			p {
+				font-size: 1.5em;
+			}
+		}
+	}
+}

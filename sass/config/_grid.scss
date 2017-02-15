@@ -1,0 +1,35 @@
+// variables
+$gridWidth: 100%; // Grid width, if you want responsive then use percent
+$columns: 12; // Total number of columns
+$gutter: 1%; // spacing between column, if responsive use % otherwise causes errors
+$padding: 0; // padding within columns, if responsive use % otherwise causes errors
+
+@mixin gridCols($num, $gutter, $padding, $columns) {
+	$one_col: $gridWidth / $columns;
+	width:($one_col * $num) - ($gutter) ;
+
+	&:first-child {
+		width:($one_col * $num) - ($gutter - $gutter);
+	}
+}
+.col {
+	box-sizing: border-box;
+	display: block;
+	padding: 0 $padding;
+
+	&:first-child {
+		margin-left: 0;
+		padding-left: 0;
+	}
+} 
+@include mQuery($large) {
+	.col {
+		float: left; 
+		margin: 0 0 0 $gutter;
+	}
+	@for $i from 1 through $columns {
+		.col#{$i} {
+			@include gridCols($i, $gutter, $padding, $columns);
+		}
+	}
+}

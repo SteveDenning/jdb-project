@@ -1,0 +1,10 @@
+// Name: border box
+// Purpose: Applies all the prefixes needed
+// How to call: 
+//		@include borderBox
+
+@mixin borderBox {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}

@@ -1,0 +1,27 @@
+
+// Print Styles
+
+body {
+	background: White;
+	color: Black;
+	font: 12pt "New Century Schoolbook", "Times New Roman", TimesNR, Times, serif;
+	text-align: left;
+}
+
+a {
+	color: Blue;
+	text-decoration: underline;
+}
+a img {
+	border: none;
+}
+img {
+	display: block;
+	margin: 12pt 0;
+}
+
+// TODO:: list classes and ids to remove from printing here
+.pageHeaderWrapper {
+	display: none;
+	visibility: hidden;
+}

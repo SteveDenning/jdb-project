@@ -1,0 +1,20 @@
+// Name: rgba
+// Purpose: Apply an RGB background colour with Alpha to an element.
+// How to call: 
+//		@include rgba([RGBA Colour], [IE filters (on/off)]);
+
+@mixin rgba($color, $useIe: $useIeFilters) {
+	background-color: opacify(lighten($color, 100*alpha($color)),1);
+	background-color: $color;
+	@if $useIe == true {
+	  	.ie8 & {
+			background:transparent;
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($color)}', endColorstr='#{ie-hex-str($color)}')";
+		}
+		.ie7 & {
+			background:transparent;
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($color)}', endColorstr='#{ie-hex-str($color)}');
+			zoom:1;
+		}
+  	}
+}

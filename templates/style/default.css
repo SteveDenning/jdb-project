@@ -1,0 +1,1493 @@
+@media screen, projection, print {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000315}}
+  .col {
+    box-sizing: border-box;
+    display: block;
+    padding: 0 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000320}}
+  .col:first-child {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+@media only screen and (min-width: 48.063em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000326}}
+  .col {
+    float: left;
+    margin: 0 0 0 1%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+  .col1 {
+    width: 7.33333%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+  .col1:first-child {
+    width: 8.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+  .col2 {
+    width: 15.66667%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+  .col2:first-child {
+    width: 16.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+  .col3 {
+    width: 24%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+  .col3:first-child {
+    width: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+  .col4 {
+    width: 32.33333%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+  .col4:first-child {
+    width: 33.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+  .col5 {
+    width: 40.66667%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+  .col5:first-child {
+    width: 41.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+  .col6 {
+    width: 49%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+  .col6:first-child {
+    width: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+  .col7 {
+    width: 57.33333%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+  .col7:first-child {
+    width: 58.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+  .col8 {
+    width: 65.66667%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+  .col8:first-child {
+    width: 66.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+  .col9 {
+    width: 74%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+  .col9:first-child {
+    width: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+  .col10 {
+    width: 82.33333%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+  .col10:first-child {
+    width: 83.33333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+  .col11 {
+    width: 90.66667%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+  .col11:first-child {
+    width: 91.66667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000331}}
+  .col12 {
+    width: 99%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/config\/_grid\.scss}line{font-family:\0000311}}
+  .col12:first-child {
+    width: 100%;
+  }
+}
+@media screen, projection, print {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\000034}}
+  html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\0000314}}
+  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\0000316}}
+  blockquote, q {
+    quotes: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\0000317}}
+  blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\0000319}}
+  a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\0000320}}
+  a img {
+    border: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\0000322}}
+  abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\0000325}}
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\0000327}}
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\0000329}}
+  input, select {
+    vertical-align: middle;
+    margin: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_reset\.scss}line{font-family:\0000332}}
+  input {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_base\.scss}line{font-family:\000033}}
+  .row:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_base\.scss}line{font-family:\0000310}}
+  .ie6 .row, .ie7 .row {
+    zoom: 1;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_base\.scss}line{font-family:\0000316}}
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_base\.scss}line{font-family:\0000324}}
+  .skipLink {
+    background: #222;
+    color: #fff;
+    display: block;
+    left: -9999px;
+    padding: 4px;
+    position: absolute;
+    z-index: 1000;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_base\.scss}line{font-family:\0000332}}
+  .skipLink:focus {
+    left: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_base\.scss}line{font-family:\0000337}}
+  .hidden {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_base\.scss}line{font-family:\0000341}}
+  .accessible {
+    position: absolute;
+    left: -9999px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_base\.scss}line{font-family:\0000345}}
+  h2 {
+    font-size: 2em;
+    border-bottom: 1px solid #666;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_base\.scss}line{font-family:\0000349}}
+  h3 {
+    font-size: 1.7em;
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_base\.scss}line{font-family:\0000354}}
+  p {
+    font-size: 1.3em;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_buttons\.scss}line{font-family:\000031}}
+  .btn {
+    display: inline-block;
+    float: right;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_buttons\.scss}line{font-family:\000037}}
+  .blueBtn {
+    background: #3D56A6;
+    border: 1px solid #3D56A6;
+    color: #fff;
+    -moz-transition: background 0.2s ease;
+    -webkit-transition: background 0.2s ease;
+    -o-transition: background 0.2s ease;
+    -ms-transition: background 0.2s ease;
+    transition: background 0.2s ease;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_buttons\.scss}line{font-family:\0000312}}
+  .blueBtn:hover {
+    background: #fff;
+    color: #3D56A6;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_content\.scss}line{font-family:\000032}}
+  .mainContent {
+    padding: 10px 0 0 0;
+    border-top: 100px solid transparent;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_content\.scss}line{font-family:\000035}}
+  .mainContent h2 {
+    color: #555;
+    font-size: 3em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_content\.scss}line{font-family:\0000311}}
+  .mainContent .gallery li img {
+    width: 100%;
+    margin-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_content\.scss}line{font-family:\0000315}}
+  .mainContent .gallery li .contentInner {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_content\.scss}line{font-family:\0000318}}
+  .mainContent .gallery li .contentInner h2 {
+    margin-bottom: 15px;
+    color: #666;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_content\.scss}line{font-family:\0000322}}
+  .mainContent .gallery li .contentInner h3 {
+    margin-bottom: 15px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_content\.scss}line{font-family:\0000325}}
+  .mainContent .gallery li .contentInner .col4 {
+    padding: 10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_content\.scss}line{font-family:\0000328}}
+  .mainContent .gallery li .contentInner .bottomRight {
+    position: absolute;
+    bottom: 10px;
+    right: 7px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_content\.scss}line{font-family:\0000333}}
+  .mainContent .gallery li .contentInner h4 {
+    font-size: 2em;
+    font-weight: normal;
+    border-bottom: 1px solid #3D56A6;
+    margin: 10px 0;
+    color: #555;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_content\.scss}line{font-family:\0000340}}
+  .mainContent .gallery li .contentInner .description {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 45px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_content\.scss}line{font-family:\0000344}}
+  .mainContent .gallery li .contentInner a {
+    font-size: 1.3em;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\000032}}
+  .fancybox-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 8020;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\000039}}
+  .fancybox-skin {
+    position: relative;
+    color: #444;
+    text-shadow: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\0000319}}
+  .fancybox-opened {
+    z-index: 8030;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\0000326}}
+  .fancybox-outer, .fancybox-inner {
+    position: relative;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\0000330}}
+  .fancybox-inner {
+    overflow: hidden;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\0000334}}
+  .fancybox-type-iframe .fancybox-inner {
+    -webkit-overflow-scrolling: touch;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\0000338}}
+  .fancybox-error {
+    color: #444;
+    font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 15px;
+    white-space: nowrap;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\0000346}}
+  .fancybox-image, .fancybox-iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\0000352}}
+  .fancybox-image {
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px solid #ccc;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\0000358}}
+  #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+    background-image: url("../images/background/fancybox/fancybox_sprite.png");
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\0000362}}
+  #fancybox-loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -22px;
+    margin-left: -22px;
+    background-position: 0 -108px;
+    opacity: 0.8;
+    cursor: pointer;
+    z-index: 8060;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\0000374}}
+  #fancybox-loading div {
+    width: 44px;
+    height: 44px;
+    background: url("../images/background/fancybox/fancybox_loading.gif") center center no-repeat;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\0000380}}
+  .fancybox-close {
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    z-index: 8040;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\0000390}}
+  .fancybox-nav {
+    position: absolute;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    background: transparent url("../images/background/fancybox/blank.gif");
+    /* helps IE */
+    -webkit-tap-highlight-color: transparent;
+    z-index: 8040;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003102}}
+  .fancybox-prev {
+    left: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003106}}
+  .fancybox-next {
+    right: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003110}}
+  .fancybox-nav span {
+    position: absolute;
+    top: 50%;
+    width: 36px;
+    height: 34px;
+    margin-top: -18px;
+    cursor: pointer;
+    z-index: 8040;
+    visibility: hidden;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003121}}
+  .fancybox-prev span {
+    left: 0px;
+    background-position: 0 -36px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003126}}
+  .fancybox-next span {
+    right: 0px;
+    background-position: 0 -72px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003131}}
+  .fancybox-nav:hover span {
+    visibility: visible;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003135}}
+  .fancybox-tmp {
+    position: absolute;
+    top: -99999px;
+    left: -99999px;
+    visibility: hidden;
+    max-width: 99999px;
+    max-height: 99999px;
+    overflow: visible !important;
+  }
+
+  /* Overlay helper */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003147}}
+  .fancybox-lock {
+    overflow: hidden !important;
+    width: auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003150}}
+  .fancybox-lock body {
+    overflow: hidden !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003156}}
+  .fancybox-lock-test {
+    overflow-y: hidden !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003160}}
+  .fancybox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    display: none;
+    z-index: 8010;
+    background: url("../images/background/fancybox/fancybox_overlay.png");
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003170}}
+  .fancybox-overlay-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003176}}
+  .fancybox-lock .fancybox-overlay {
+    overflow: auto;
+    overflow-y: scroll;
+  }
+
+  /* Title helper */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003183}}
+  .fancybox-title {
+    visibility: hidden;
+    font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    text-shadow: none;
+    z-index: 8050;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003191}}
+  .fancybox-opened .fancybox-title {
+    visibility: visible;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003195}}
+  .fancybox-title-float-wrap {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    margin-bottom: -35px;
+    z-index: 8050;
+    text-align: center;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003204}}
+  .fancybox-title-float-wrap .child {
+    display: inline-block;
+    margin-right: -100%;
+    padding: 2px 20px;
+    background: transparent;
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgba(0, 0, 0, 0.8);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    text-shadow: 0 1px 2px #222;
+    color: #FFF;
+    font-weight: bold;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003220}}
+  .fancybox-title-outside-wrap {
+    position: relative;
+    margin-top: 10px;
+    color: #fff;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003226}}
+  .fancybox-title-inside-wrap {
+    padding-top: 10px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003230}}
+  .fancybox-title-over-wrap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    padding: 10px;
+    background: #000;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  /*Retina graphics!*/
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003245}}
+  #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+    background-image: url("../images/background/fancybox/fancybox_sprite@2x.png");
+    background-size: 44px 152px;
+    /*The size of the normal image, half the size of the hi-res image*/
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fancyBox\.scss}line{font-family:\00003250}}
+  #fancybox-loading div {
+    background-image: url("../images/background/fancybox/fancybox_loading@2x.gif");
+    background-size: 24px 24px;
+    /*The size of the normal image, half the size of the hi-res image*/
+  }
+}
+@media screen, projection, print {
+  /* gallery/masonry/folio items
+  ================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\000033}}
+  .gallery img {
+    width: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\000036}}
+  .gallery {
+    position: relative;
+    left: -1%;
+    width: 102.87%;
+    margin: 0;
+    padding: 2px 0 0 0;
+    list-style: none;
+    clear: both;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\0000314}}
+  .gallery li {
+    float: left;
+    width: 22.25%;
+    margin: 0 1% 20px 1%;
+    padding: 0 0 5px 0;
+    background: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  /* column  settings */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\0000326}}
+  .gallery.four_col li {
+    width: 22.25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\0000327}}
+  .gallery.three_col li {
+    width: 31%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\0000328}}
+  .gallery.two_col li {
+    width: 47%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\0000329}}
+  .three_col li h4,
+  .four_col li h4 {
+    overflow: hidden;
+    /* long words chop off at small sizes due to skinniness of 3 or 4 columns */
+    font-size: 120%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\0000335}}
+  .gallery li img {
+    width: 100% !important;
+    max-width: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\0000339}}
+  .gallery img {
+    background: #fff url(../images/loader.gif) no-repeat 50% 50%;
+  }
+
+  /* gallery "item" contents (summary, captions, etc) */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\0000342}}
+  .gallery li .entry-summary {
+    padding: 0 10px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\0000343}}
+  .gallery li h4 {
+    padding: 0 0 5px 0;
+    margin: 10px 0 0 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\0000347}}
+  .gallery li .entry-summary a {
+    text-decoration: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\0000348}}
+  .gallery li .entry-summary p {
+    font-size: 85%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\0000349}}
+  .gallery li .categories {
+    font-size: 11px;
+    font-size: 1.1rem;
+    width: auto;
+    text-align: left;
+    margin-top: 5px;
+    padding: 5px 0  0 0;
+    border-top: 1px solid #fff;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\0000358}}
+  .gallery li .categories a {
+    text-decoration: none;
+    display: inline;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\0000362}}
+  .gallery li a.videoicon,
+  .gallery li a.hover {
+    position: relative;
+    display: block;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\0000367}}
+  .gallery li a.videoicon span.videoicon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    display: block;
+    background: #fff url(../images/videoicon.png) no-repeat;
+    z-index: 10;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+  }
+
+  /* photo credit */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\0000380}}
+  .gallery li span.credit {
+    font-size: xx-small;
+    position: relative;
+    padding: 5px 0 0 0;
+    margin: 0;
+    display: block;
+    text-align: right;
+  }
+
+  /* photo credit */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\0000389}}
+  .gallery li span.credit a, .gallery li span.credit {
+    text-decoration: none;
+  }
+
+  /* portfolio lightbox styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\0000394}}
+  .gallery.lightbox li {
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\0000399}}
+  .gallery.lightbox li .entry-summary {
+    display: none;
+  }
+
+  /* filter
+  ================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003104}}
+  .sort {
+    float: left;
+    position: relative;
+    list-style: none;
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    background: none;
+    top: auto;
+    width: 100%;
+    border: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003114}}
+  .sort li {
+    padding: 0;
+    margin: 0 0 10px 0;
+    display: inline;
+    position: relative;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003119}}
+  .sort li a {
+    padding: 3px 10px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #666;
+    line-height: normal;
+    font-size: 1.6em;
+    -moz-transition: border 0.3s ease, padding 0.3s ease;
+    -webkit-transition: border 0.3s ease, padding 0.3s ease;
+    -o-transition: border 0.3s ease, padding 0.3s ease;
+    -ms-transition: border 0.3s ease, padding 0.3s ease;
+    transition: border 0.3s ease, padding 0.3s ease;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003137}}
+  .sort li a:hover,
+  .sort a.active {
+    color: #3D56A6;
+    background: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 0px;
+    border-bottom: 2px solid #3D56A6;
+  }
+
+  /* no javascript */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003147}}
+  .no-js .gallery {
+    margin-top: 20px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003148}}
+  .no-js .sort,
+  .no-js .entry-summary,
+  .no-js .categories,
+  .no-js span.credit {
+    display: none !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003152}}
+  .no-js .gallery li {
+    height: 200px;
+    overflow: hidden;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003157}}
+  .mobile-filter-trigger {
+    display: none;
+  }
+
+  /* media queries for mobile max width 767
+  ================================================== */
+}
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003163}}
+  .gallery.four_col li,
+  .gallery.two_col li {
+    width: 44.5%;
+  }
+
+  /* filter for isotope navigation mobile version */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003166}}
+  .no-js .filter-box,
+  .no-js .sort {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003169}}
+  .filter-box {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003171}}
+  .mobile-filter-trigger {
+    cursor: pointer;
+    display: block;
+    font-size: 2em;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003177}}
+  .sort-mobile {
+    list-style: none;
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003182}}
+  .sort-mobile li {
+    padding: 10px 0;
+    margin: 0;
+    display: block;
+    position: relative;
+    border-bottom: 1px solid #DFCEA1;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003189}}
+  .sort-mobile li a {
+    text-decoration: none;
+    font-size: 1.7em;
+  }
+}
+@media screen, projection, print {
+  /*end max width 767*/
+  /* max width 700px
+  ================================================== */
+}
+@media only screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003201}}
+  .gallery.three_col li,
+  .gallery.four_col li,
+  .gallery.two_col li {
+    width: 98%;
+    margin: 0 1% 10px 1%;
+  }
+}
+@media screen, projection, print {
+  /*end */
+  /* ================================================== 
+  	38. RETINA BACKGROUND IMAGE REPLACEMENT & RETINA INFORMATION
+  	http://weedygarden.net/2012/04/hi-res-retina-display-css-sprites/
+  	http://www.kylejlarson.com/blog/2012/creating-retina-images-for-your-website/
+  	http://www.webresourcesdepot.com/3-solutions-for-serving-high-res-images-to-retina-display-devices/
+  ================================================== */
+  /*	change the webkit number to 1 to test on webkit to make sure 
+  	the sizes and the images show up correctly then switch back before launch */
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003228}}
+  .gallery img {
+    background-image: url(../images/retina/loader_@2x.gif);
+    -moz-background-size: 80px 10px;
+    -ie-background-size: 80px 10px;
+    -o-background-size: 80px 10px;
+    -webkit-background-size: 80px 10px;
+    background-size: 80px 10px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003238}}
+  .gallery li a.videoicon span.videoicon {
+    background-image: url(../images/retina/videoicon_@2x.png);
+    -moz-background-size: 25px 25px;
+    -ie-background-size: 25px 25px;
+    -o-background-size: 25px 25px;
+    -webkit-background-size: 25px 25px;
+    background-size: 25px 25px;
+  }
+}
+@media screen, projection, print {
+  /* end retina */
+  /* flexslider base styles - base
+  ================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003258}}
+  .flex-container a:active, .flexslider a:active, .flex-container a:focus, .flexslider a:focus {
+    outline: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003259}}
+  .slides, .flex-control-nav, .flex-direction-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003260}}
+  .flexslider {
+    margin: 0;
+    padding: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003261}}
+  .flexslider .slides > li {
+    display: none;
+    -webkit-backface-visibility: hidden;
+    position: relative;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003262}}
+  .flexslider .slides img {
+    width: 100%;
+    display: block;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003263}}
+  .slides:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003264}}
+  * html .slides {
+    height: 1%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003265}}
+  html[xmlns] .slides, .no-js .slides > li:first-child {
+    display: block !important;
+  }
+
+  /* isotope/masonry base styles - base
+  ================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003269}}
+  .isotope-item {
+    z-index: 2;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003270}}
+  .isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003271}}
+  .isotope, .isotope .isotope-item {
+    -webkit-transition-duration: .8s;
+    -moz-transition-duration: .8s;
+    transition-duration: .8s;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003272}}
+  .isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_fluidGrid\.scss}line{font-family:\00003273}}
+  .isotope .isotope-item {
+    -webkit-transition-property: 0 opacity;
+    -moz-transition-property: 0 opacity;
+    transition-property: transform, opacity;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_footer\.scss}line{font-family:\000031}}
+  .pageFooter {
+    color: #fff;
+    background: #222;
+    padding: 20px 0 0 0;
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_footer\.scss}line{font-family:\000036}}
+  .pageFooter .col3 {
+    margin-bottom: 35px;
+    padding: 0 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_footer\.scss}line{font-family:\0000310}}
+  .pageFooter h5 {
+    color: #2EA3F2;
+    font-size: 1.8em;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    font-weight: normal;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_footer\.scss}line{font-family:\0000317}}
+  .pageFooter p {
+    font-size: 1.4em;
+    line-height: 1.5em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_footer\.scss}line{font-family:\0000321}}
+  .pageFooter img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_footer\.scss}line{font-family:\0000326}}
+  .pageFooter a {
+    color: #fff;
+    font-size: 1.4em;
+    text-decoration: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_footer\.scss}line{font-family:\0000330}}
+  .pageFooter a:hover {
+    text-decoration: underline;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_footer\.scss}line{font-family:\0000334}}
+  .pageFooter .fa {
+    font-size: 1.5em;
+    padding-right: 5px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_footer\.scss}line{font-family:\0000338}}
+  .pageFooter .row:nth-of-type(2) {
+    background: rgba(0, 0, 0, 0.32);
+    color: #666;
+    padding: 10px 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_footer\.scss}line{font-family:\0000342}}
+  .pageFooter .row:nth-of-type(2) p {
+    font-size: 1.2em;
+    display: inline-block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_footer\.scss}line{font-family:\0000346}}
+  .pageFooter .row:nth-of-type(2) a {
+    color: #666;
+    font-size: inherit;
+  }
+}
+@media only screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_footer\.scss}line{font-family:\0000351}}
+  .pageFooter .row:nth-of-type(2) span {
+    float: right;
+  }
+}
+
+@media screen, projection, print {
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\000031}}
+  .pageHeaderWrapper {
+    background: #3D56A6;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\000036}}
+  .pageHeaderWrapper .pageHeader {
+    position: relative;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\000038}}
+  .pageHeaderWrapper .pageHeader .primaryLogo {
+    margin: 0 auto;
+    width: 320px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\0000311}}
+  .pageHeaderWrapper .pageHeader .primaryLogo img {
+    min-width: 100%;
+    padding: 5px 0;
+    width: 10%;
+  }
+}
+@media only screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\000038}}
+  .pageHeaderWrapper .pageHeader .primaryLogo {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\0000318}}
+  .pageHeaderWrapper .pageHeader .primaryLogo img {
+    padding: 10px 0;
+    width: 330px;
+  }
+}
+@media only screen and (min-width: 90em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\0000324}}
+  .pageHeaderWrapper .pageHeader .primaryLogo img {
+    width: 400px;
+  }
+}
+@media screen, projection, print {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\0000329}}
+  .pageHeaderWrapper .pageHeader .socialIcons {
+    color: #fff;
+    font-size: 1.4em;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\0000329}}
+  .pageHeaderWrapper .pageHeader .socialIcons {
+    font-size: 2em;
+    text-align: right;
+  }
+}
+@media screen, projection, print {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\0000337}}
+  .pageHeaderWrapper .pageHeader .socialIcons .fb-like {
+    display: block;
+    margin-right: 10px !important;
+  }
+}
+@media only screen and (min-width: 90em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\0000337}}
+  .pageHeaderWrapper .pageHeader .socialIcons .fb-like {
+    margin-top: 10px;
+  }
+}
+@media screen, projection, print {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\0000345}}
+  .pageHeaderWrapper .pageHeader .socialIcons .facebookIcon .overLay {
+    background: #fff;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\0000349}}
+  .pageHeaderWrapper .pageHeader .socialIcons .facebookIcon:hover a {
+    color: #44619D;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\0000355}}
+  .pageHeaderWrapper .pageHeader .socialIcons .twitterIcon .overLay {
+    background: #4FC6F8;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\0000360}}
+  .pageHeaderWrapper .pageHeader .socialIcons .linkedInIcon .overLay {
+    background: #007BB6;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\0000364}}
+  .pageHeaderWrapper .pageHeader .socialIcons .facebookIcon,
+  .pageHeaderWrapper .pageHeader .socialIcons .twitterIcon,
+  .pageHeaderWrapper .pageHeader .socialIcons .linkedInIcon {
+    top: 5px;
+    display: inline-block;
+    height: 35px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\0000370}}
+  .pageHeaderWrapper .pageHeader .socialIcons .facebookIcon .overLay,
+  .pageHeaderWrapper .pageHeader .socialIcons .twitterIcon .overLay,
+  .pageHeaderWrapper .pageHeader .socialIcons .linkedInIcon .overLay {
+    -moz-transition: height 0.2s ease-in-out;
+    -webkit-transition: height 0.2s ease-in-out;
+    -o-transition: height 0.2s ease-in-out;
+    -ms-transition: height 0.2s ease-in-out;
+    transition: height 0.2s ease-in-out;
+    content: " ";
+    display: block;
+    height: 0;
+    left: 2px;
+    position: relative;
+    top: -33px;
+    width: 39px;
+    z-index: 1;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\0000380}}
+  .pageHeaderWrapper .pageHeader .socialIcons .facebookIcon .overLay.is-active,
+  .pageHeaderWrapper .pageHeader .socialIcons .twitterIcon .overLay.is-active,
+  .pageHeaderWrapper .pageHeader .socialIcons .linkedInIcon .overLay.is-active {
+    height: 34px;
+  }
+}
+@media only screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\0000364}}
+  .pageHeaderWrapper .pageHeader .socialIcons .facebookIcon,
+  .pageHeaderWrapper .pageHeader .socialIcons .twitterIcon,
+  .pageHeaderWrapper .pageHeader .socialIcons .linkedInIcon {
+    top: 5px;
+    height: 43px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\0000387}}
+  .pageHeaderWrapper .pageHeader .socialIcons .facebookIcon .overLay,
+  .pageHeaderWrapper .pageHeader .socialIcons .twitterIcon .overLay,
+  .pageHeaderWrapper .pageHeader .socialIcons .linkedInIcon .overLay {
+    height: 0;
+    left: 3px;
+    top: -40px;
+    width: 50px;
+    z-index: 1;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\0000393}}
+  .pageHeaderWrapper .pageHeader .socialIcons .facebookIcon .overLay.is-active,
+  .pageHeaderWrapper .pageHeader .socialIcons .twitterIcon .overLay.is-active,
+  .pageHeaderWrapper .pageHeader .socialIcons .linkedInIcon .overLay.is-active {
+    height: 42px;
+  }
+}
+@media screen, projection, print {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\0000399}}
+  .pageHeaderWrapper .pageHeader .socialIcons .fb-like {
+    margin-left: 2%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_header\.scss}line{font-family:\00003102}}
+  .pageHeaderWrapper .pageHeader .socialIcons a {
+    -moz-transition: color 0.2s ease;
+    -webkit-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    -ms-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+    background: transparent;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 17px;
+    position: relative;
+    text-decoration: none;
+    top: 0;
+    z-index: 2;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_productPage\.scss}line{font-family:\000032}}
+  .product .productContainer {
+    margin-bottom: 50px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_productPage\.scss}line{font-family:\000035}}
+  .product .contentStyle01 {
+    border-top: 100px solid transparent;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_productPage\.scss}line{font-family:\000037}}
+  .product .contentStyle01 .description {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_productPage\.scss}line{font-family:\0000310}}
+  .product .contentStyle01 .description .tickList {
+    font-size: 1.3em;
+    list-style: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_productPage\.scss}line{font-family:\0000313}}
+  .product .contentStyle01 .description .tickList li {
+    background: url(../images/background/tick.png) no-repeat;
+    background-size: 15px;
+    padding: 5px 0;
+    padding-left: 20px;
+  }
+}
+@media only screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_productPage\.scss}line{font-family:\0000313}}
+  .product .contentStyle01 .description .tickList li {
+    background-size: 25px;
+    padding-left: 30px;
+    font-size: 1.8em;
+  }
+}
+@media screen, projection, print {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_productPage\.scss}line{font-family:\0000326}}
+  .product .contentStyle01 h2 {
+    font-size: 2.4em;
+    margin-bottom: 30px;
+    color: #666;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_productPage\.scss}line{font-family:\0000331}}
+  .product .contentStyle01 h3 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_productPage\.scss}line{font-family:\0000331}}
+  .product .contentStyle01 h3 {
+    margin-top: 0;
+  }
+}
+@media screen, projection, print {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_productPage\.scss}line{font-family:\0000340}}
+  .product .contentStyle01 p {
+    color: #333;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_productPage\.scss}line{font-family:\0000345}}
+  .product .contentStyle01 h2 {
+    font-size: 3em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_productPage\.scss}line{font-family:\0000348}}
+  .product .contentStyle01 h3 {
+    font-size: 2.4em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_productPage\.scss}line{font-family:\0000351}}
+  .product .contentStyle01 p {
+    font-size: 1.5em;
+  }
+}
+
+@media screen, projection, print {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_simpleGallery\.scss}line{font-family:\000032}}
+  .simplegallery {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_simpleGallery\.scss}line{font-family:\000037}}
+  .simplegallery .content {
+    background: #fff;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_simpleGallery\.scss}line{font-family:\0000313}}
+  .simplegallery .content img {
+    margin: 0;
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_simpleGallery\.scss}line{font-family:\0000318}}
+  .simplegallery .content .thumbnail {
+    margin-top: 5px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_simpleGallery\.scss}line{font-family:\0000323}}
+  .simplegallery .thumbnail .thumb {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 24%;
+    height: auto;
+    margin: 0 1% 0 0;
+    cursor: pointer;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_simpleGallery\.scss}line{font-family:\0000333}}
+  .simplegallery .thumbnail .thumb img {
+    border: 1px solid #9c9c9c;
+    width: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_wrappers\.scss}line{font-family:\000031}}
+  .pageWrapper {
+    width: 100%;
+    height: auto;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_wrappers\.scss}line{font-family:\000035}}
+  .mainContentwrapper {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #555;
+    padding-top: 100px;
+  }
+}
+@media only screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_wrappers\.scss}line{font-family:\000035}}
+  .mainContentwrapper {
+    padding-top: 85px;
+  }
+}
+
+@media screen, projection, print {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_wrappers\.scss}line{font-family:\0000313}}
+  .contentWrapper {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 285px;
+    margin: 0 auto;
+    padding: 0 4%;
+  }
+}
+@media only screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_wrappers\.scss}line{font-family:\0000313}}
+  .contentWrapper {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 90em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/components\/_wrappers\.scss}line{font-family:\0000313}}
+  .contentWrapper {
+    width: 75%;
+  }
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+@media print {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_print\.scss}line{font-family:\000034}}
+  body {
+    background: White;
+    color: Black;
+    font: 12pt "New Century Schoolbook", "Times New Roman", TimesNR, Times, serif;
+    text-align: left;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_print\.scss}line{font-family:\0000311}}
+  a {
+    color: Blue;
+    text-decoration: underline;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_print\.scss}line{font-family:\0000315}}
+  a img {
+    border: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_print\.scss}line{font-family:\0000318}}
+  img {
+    display: block;
+    margin: 12pt 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/jdb\/sass\/_print\.scss}line{font-family:\0000324}}
+  .pageHeaderWrapper {
+    display: none;
+    visibility: hidden;
+  }
+}

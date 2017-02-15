@@ -1,0 +1,24 @@
+.pageWrapper {
+	width: 100%;
+	height: auto;
+}
+.mainContentwrapper {
+	@include borderBox;
+	color: #555;
+	padding-top: 100px;
+	@include mQuery($tablet) {
+		padding-top: 85px;
+	}
+}
+.contentWrapper {
+	@include borderBox;
+	min-width: 285px;
+	margin: 0 auto;
+	padding: 0 4%;
+	@include mQuery($tablet) {
+		width: 90%
+	}
+	@include mQuery($Ldesktop) {
+		width: 75%;
+	}
+}

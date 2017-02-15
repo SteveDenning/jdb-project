@@ -1,0 +1,26 @@
+syntax: glob
+.buildpath
+.project
+.settings/org.eclipse.php.core.prefs
+.DS_Store
+_notes
+dwsync.xml
+Thumbs.db
+*.css
+.sass-cache
+.idea/*
+*.orig
+*.bak
+default.js
+node_modules
+build.zip
+version.json
+syntax: regexp
+(?i).*/obj/.*
+(?i).*/bin/.*
+(?i).*.user$
+(?i).*.suo$
+(?i).*/TestBin/.*
+(?i).*.cache$
+(?i).*.dotsettings$
+(?i).*.dbmdl$
